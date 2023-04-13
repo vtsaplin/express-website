@@ -1,5 +1,5 @@
 mountpoints:
-  /: 'https://adobe-my.sharepoint.com/:f:/r/personal/tsaplin_adobe_com/Documents/Franklin Websites/express?csf=1&web=1&e=kobYpd'
+  /: https://adobe-my.sharepoint.com/:f:/r/personal/tsaplin_adobe_com/Documents/FranklinWebsites/express?csf=1&web=1&e=YRmZcA
 
 folders:
   /express/templates/content.json: /metadata.json
