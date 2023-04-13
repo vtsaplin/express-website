@@ -1,6 +1,6 @@
 mountpoints:
   /: 
-    url: https://adobe-my.sharepoint.com/:f:/r/personal/tsaplin_adobe_com/Documents/FranklinWebsites/Express?csf=1&web=1&e=FRMBc7
+    url: https://adobe-my.sharepoint.com/:f:/p/tsaplin/EmH409B5vlJFifzMoujmFEoBLMOHjntNxjgCiwvA6LAGlg?email=helix%40adobe.com&e=Qh9gPk
 
 folders:
   /express/templates/content.json: /metadata.json
