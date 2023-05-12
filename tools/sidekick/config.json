@@ -4,6 +4,7 @@
   "host": "www.adobe.com",
   "byocdn": true,
   "pushDownSelector": "#feds-header",
+  "devMode": true,
   "plugins": [
     {
       "id": "metadata",
@@ -26,6 +27,7 @@
       "title": "Experiments",
       "url": "http://localhost:8081",
       "passConfig": true,
+      "passReferrer": true,
       "isPalette": false,
       "environments": [ "edit", "admin", "edit", "dev", "preview", "live", "prod" ],
       "includePaths": [ "/**" ]
