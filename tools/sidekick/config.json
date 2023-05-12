@@ -15,11 +15,20 @@
     },
     {
       "id": "templates",
-      "title": "Templates",
+      "title": "Templates1",
       "url": "https://main--express-website--adobe.hlx.page/tools/templates/picker.html",
       "environments": [ "edit" ],
       "excludePaths": [ "/**" ],
       "includePaths": [ "**.docx**" ]
+    },
+    {
+      "id": "experiments",
+      "title": "Experiments",
+      "url": "http://localhost:8081",
+      "passConfig": true,
+      "isPalette": true,
+      "environments": [ "edit", "admin", "edit", "dev", "preview", "live", "prod" ],
+      "includePaths": [ "/**" ]
     }
   ]
 }
