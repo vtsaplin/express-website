@@ -26,7 +26,7 @@
       "title": "Experiments",
       "url": "http://localhost:8081",
       "passConfig": true,
-      "isPalette": true,
+      "isPalette": false,
       "environments": [ "edit", "admin", "edit", "dev", "preview", "live", "prod" ],
       "includePaths": [ "/**" ]
     }
