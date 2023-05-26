@@ -48,8 +48,8 @@
       "url": "https://gentle-glacier-0d85da80f-preview.eastus2.3.azurestaticapps.net",
       "passConfig": true,
       "passReferrer": true,
-      "isPalette": true,
-      "environments": [ "edit", "admin", "edit", "dev", "preview", "live", "prod" ],
+      "isPalette": false,
+      "environments": [ "dev", "preview", "live", "prod" ],
       "includePaths": [ "/**" ]
     }
   ]
