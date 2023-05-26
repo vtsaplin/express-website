@@ -23,13 +23,34 @@
       "includePaths": [ "**.docx**" ]
     },
     {
+      "id": "experiments-local",
+      "title": "Experiments (Local)",
+      "url": "http://localhost:8081",
+      "passConfig": true,
+      "passReferrer": true,
+      "isPalette": false,
+      "environments": [ "edit", "admin", "edit", "dev", "preview", "live", "prod" ],
+      "includePaths": [ "/**" ]
+    },
+    {
       "id": "experiments",
-      "title": "Create Experiment",
+      "title": "Experiments",
       "url": "https://franklin-experimentation-genai-service.ethos09-prod-va7.ethos.adobe.net",
       "passConfig": true,
       "passReferrer": true,
       "isPalette": false,
-      "environments": [ "preview" ],
+      "environments": [ "edit", "admin", "edit", "dev", "preview", "live", "prod" ],
+      "includePaths": [ "/**" ]
+    },
+    {
+      "id": "experiments-azure",
+      "title": "Experiments (Azure)",
+      "url": "https://gentle-glacier-0d85da80f-preview.eastus2.3.azurestaticapps.net",
+      "passConfig": true,
+      "passReferrer": true,
+      "isPalette": true,
+      "paletteRect": "width: 80%; height: 80%; top: 10%; left: 10%;",
+      "environments": [ "dev", "preview", "live", "prod" ],
       "includePaths": [ "/**" ]
     }
   ]
