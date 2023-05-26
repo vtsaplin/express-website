@@ -49,7 +49,7 @@
       "passConfig": true,
       "passReferrer": true,
       "isPalette": true,
-      "paletteRect": "width: 80%; height: 80%; top: 10%; left: 10%;",
+      "paletteRect": "width: 800px; height: 600px; bottom: 100px; right: 100px;",
       "environments": [ "dev", "preview", "live", "prod" ],
       "includePaths": [ "/**" ]
     }
