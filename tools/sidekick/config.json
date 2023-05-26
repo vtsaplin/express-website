@@ -48,7 +48,7 @@
       "url": "http://localhost:3000",
       "passConfig": true,
       "passReferrer": true,
-      "isPalette": true,
+      "isPalette": false,
       "paletteRect": "width: 60%; height: 60%; top: 20%; left: 20%;",
       "environments": [ "dev", "preview", "live", "prod" ],
       "includePaths": [ "/**" ]
