@@ -16,7 +16,7 @@
     },
     {
       "id": "templates",
-      "title": "Templates1",
+      "title": "Templates",
       "url": "https://main--express-website--adobe.hlx.page/tools/templates/picker.html",
       "environments": [ "edit" ],
       "excludePaths": [ "/**" ],
@@ -24,12 +24,12 @@
     },
     {
       "id": "experiments",
-      "title": "Experiments",
+      "title": "Create Experiment",
       "url": "https://franklin-experimentation-genai-service.ethos09-prod-va7.ethos.adobe.net",
       "passConfig": true,
       "passReferrer": true,
       "isPalette": false,
-      "environments": [ "edit", "admin", "edit", "dev", "preview", "live", "prod" ],
+      "environments": [ "preview" ],
       "includePaths": [ "/**" ]
     }
   ]
