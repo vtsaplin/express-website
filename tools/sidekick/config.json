@@ -23,18 +23,8 @@
       "includePaths": [ "**.docx**" ]
     },
     {
-      "id": "experiments",
-      "title": "Experiments",
-      "url": "https://franklin-experimentation-genai-service.ethos09-prod-va7.ethos.adobe.net",
-      "passConfig": true,
-      "passReferrer": true,
-      "isPalette": false,
-      "environments": [ "edit", "admin", "edit", "dev", "preview", "live", "prod" ],
-      "includePaths": [ "/**" ]
-    },
-    {
       "id": "experiments-local",
-      "title": "Experiments (Azure)",
+      "title": "Experiments (Local)",
       "url": "http://localhost:3000",
       "passConfig": true,
       "passReferrer": true,
