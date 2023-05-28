@@ -29,7 +29,7 @@
       "passConfig": true,
       "passReferrer": true,
       "isPalette": true,
-      "paletteRect": "width: 60%; height: 60%; top: 20%; left: 20%; box-shadow: 0 0 30px 0 rgba(0,0,0,0.15);",
+      "paletteRect": "width: 60%; height: 60%; top: 20%; left: 20%; box-shadow: 0 0 30px 30px rgba(0,0,0,0.15);",
       "environments": [ "dev", "preview", "live", "prod" ],
       "includePaths": [ "/**" ]
     },
