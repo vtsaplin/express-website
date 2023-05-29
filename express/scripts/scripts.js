@@ -1387,6 +1387,7 @@ export async function getExperimentConfig(experimentId) {
     };
 
     const pages = instantExperiment.split(',').map((p) => new URL(p.trim()).pathname);
+    console.log(pages);
     const evenSplit = 1 / (pages.length + 1);
 
     config.variantNames.push('control');
