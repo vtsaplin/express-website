@@ -34,17 +34,6 @@
       "includePaths": [ "/**" ]
     },
     {
-      "id": "experiments-local-ext",
-      "title": "Experiments (LocalExt)",
-      "url": "http://localhost:3000",
-      "passConfig": true,
-      "passReferrer": true,
-      "isPalette": false,
-      "paletteRect": "width: 60%; height: 60%; top: 20%; left: 20%;",
-      "environments": [ "dev", "preview", "live", "prod" ],
-      "includePaths": [ "/**" ]
-    },
-    {
       "id": "experiments-azure",
       "title": "Experiments (Azure)",
       "url": "https://gentle-glacier-0d85da80f-preview.eastus2.3.azurestaticapps.net",
