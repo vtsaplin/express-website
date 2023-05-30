@@ -24,7 +24,7 @@
     },
     {
       "id": "experiments-local",
-      "title": "Create Experiment (Dev)",
+      "title": "(Dev)",
       "url": "http://localhost:3000",
       "passConfig": true,
       "passReferrer": true,
