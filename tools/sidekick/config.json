@@ -29,7 +29,7 @@
       "passConfig": true,
       "passReferrer": true,
       "isPalette": true,
-      "paletteRect": "left: 50%; top: 50%; transform: translate(-50%, -50%); width: 850px; height: 6 00px; box-shadow: 0 0 30px 30px rgba(0,0,0,0.20);",
+      "paletteRect": "left: 50%; top: 50%; transform: translate(-50%, -50%); width: 850px; height: 600px; box-shadow: 0 0 30px 30px rgba(0,0,0,0.20);",
       "environments": [ "dev", "preview", "live", "prod" ],
       "includePaths": [ "/**" ]
     },
@@ -40,7 +40,7 @@
       "passConfig": true,
       "passReferrer": true,
       "isPalette": true,
-      "paletteRect": "left: 50%; top: 50%; transform: translate(-50%, -50%); width: 850px; height: 6 00px; box-shadow: 0 0 30px 30px rgba(0,0,0,0.20);",
+      "paletteRect": "left: 50%; top: 50%; transform: translate(-50%, -50%); width: 850px; height: 600px; box-shadow: 0 0 30px 30px rgba(0,0,0,0.20);",
       "environments": [ "dev", "preview", "live", "prod" ],
       "includePaths": [ "/**" ]
     }
