@@ -24,7 +24,7 @@
     },
     {
       "id": "experiments-local",
-      "title": "(Dev)",
+      "title": "Generate Experiment (Local)",
       "url": "http://localhost:3000",
       "passConfig": true,
       "passReferrer": true,
@@ -35,7 +35,7 @@
     },
     {
       "id": "experiments-dev",
-      "title": "Generate Experiment",
+      "title": "Generate Experiment (Dev)",
       "url": "https://gentle-glacier-0d85da80f-dev.eastus2.3.azurestaticapps.net",
       "passConfig": true,
       "passReferrer": true,
