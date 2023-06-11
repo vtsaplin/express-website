@@ -47,7 +47,7 @@
     {
       "id": "experiments-preview",
       "title": "Generate Experiment",
-      "url": "https://gentle-glacier-0d85da80f-preview.eastus2.3.azurestaticapps.net",
+      "url": "https://gentle-glacier-0d85da80f-main.eastus2.3.azurestaticapps.net ",
       "passConfig": true,
       "passReferrer": true,
       "isPalette": true,
