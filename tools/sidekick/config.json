@@ -45,7 +45,7 @@
       "includePaths": [ "/**" ]
     },
     {
-      "id": "experiments-preview",
+      "id": "experiments-main",
       "title": "Generate Experiment",
       "url": "https://gentle-glacier-0d85da80f-main.eastus2.3.azurestaticapps.net ",
       "passConfig": true,
