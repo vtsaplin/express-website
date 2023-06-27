@@ -2476,6 +2476,7 @@ async function decoratePage() {
   loadGnav();
   if (window.location.hostname.endsWith('hlx.page') || window.location.hostname === ('localhost')) {
     import('../../tools/preview/preview.js');
+    import('../../tools/genai/index.js');
   }
 }
 
