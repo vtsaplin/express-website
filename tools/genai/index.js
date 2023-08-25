@@ -1,14 +1,14 @@
-// if (window.location.hostname === ('localhost')) {
-//
-//   const url = "http://localhost:4000/static/js/bundle.js";
-//   const script = document.createElement("script");
-//   script.setAttribute("src", url);
-//   script.setAttribute("type", "text/javascript");
-//   script.setAttribute("async", "true");
-//   script.crossOrigin = "anonymous";
-//   document.head.appendChild(script);
-//
-// } else if (window.location.hostname.endsWith('hlx.page')) {
+if (window.location.hostname === ('localhost')) {
+
+  const url = "http://localhost:4000/static/js/bundle.js";
+  const script = document.createElement("script");
+  script.setAttribute("src", url);
+  script.setAttribute("type", "text/javascript");
+  script.setAttribute("async", "true");
+  script.crossOrigin = "anonymous";
+  document.head.appendChild(script);
+
+} else if (window.location.hostname.endsWith('hlx.page')) {
 
   const baseUrl = "https://salmon-pebble-015589f10-dev.centralus.3.azurestaticapps.net";
 
@@ -24,4 +24,4 @@
   script.setAttribute("async", "true");
   script.crossOrigin = "anonymous";
   document.head.appendChild(script);
-// }
+}
