@@ -45,13 +45,13 @@
       "includePaths": [ "/**" ]
     },
     {
-      "id": "experiments-main",
-      "title": "Generate Experiment",
-      "url": "https://gentle-glacier-0d85da80f-main.eastus2.3.azurestaticapps.net ",
+      "id": "aem-chat",
+      "title": "AEM Chat",
+      "url": "https://chat.hlx.live",
       "passConfig": true,
       "passReferrer": true,
       "isPalette": true,
-      "paletteRect": "left: 50%; top: 50%; transform: translate(-50%, -50%); width: 900px; height: 600px; box-shadow: 0 0 30px 30px rgba(0,0,0,0.20);",
+      "paletteRect": "left: 0, top: 0; width: 350px; height: 100vh",
       "environments": [ "dev", "preview", "live", "prod" ],
       "includePaths": [ "/**" ]
     }
