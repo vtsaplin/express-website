@@ -51,7 +51,7 @@
       "passConfig": true,
       "passReferrer": true,
       "isPalette": true,
-      "paletteRect": "left: 0, top: 0; width: 350px; height: 100vh",
+      "paletteRect": "right: 0; top: 50%; transform: translate(400px, -50%); width: 350px; height: 100vh",
       "environments": [ "dev", "preview", "live", "prod" ],
       "includePaths": [ "/**" ]
     }
