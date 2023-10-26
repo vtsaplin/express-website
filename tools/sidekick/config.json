@@ -26,7 +26,6 @@
       "id": "aem-chat",
       "title": "AEM Chat",
       "devMode": true,
-      "pushDown": true,
       "url": "https://chat.hlx.live",
       "passConfig": true,
       "passReferrer": true,
