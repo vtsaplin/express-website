@@ -62,7 +62,7 @@
       "passConfig": true,
       "passReferrer": true,
       "isPalette": true,
-      "paletteRect": "left: 50%; top: 50%; transform: translate(-50%, -50%); width: calc(100vw - 200px); height: calc(100vh - 200px); box-shadow: 0 0 30px 30px rgba(0,0,0,0.20);",
+      "paletteRect": "left: 50%; top: 50%; transform: translate(-50%, -50%); width: calc(100vw - 100px); height: calc(100vh - 100px); box-shadow: 0 0 30px 30px rgba(0,0,0,0.20);",
       "environments": [ "dev", "preview", "live", "prod" ],
       "includePaths": [ "/**" ]
     }
