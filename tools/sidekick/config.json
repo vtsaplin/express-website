@@ -52,7 +52,7 @@
       "passReferrer": true,
       "isPalette": true,
       "paletteRect": "left: 20px; top: calc(150px - 20px); width: 350px; height: calc(100vh - 150px); box-shadow: 0 0 30px 30px rgba(0,0,0,0.20);",
-      "environments": [ "dev", "preview", "live", "prod" ],
+      "environments": [ "dev", "preview", "live", "prod", "edit" ],
       "includePaths": [ "/**" ]
     },
     {
