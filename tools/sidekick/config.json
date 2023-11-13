@@ -59,9 +59,10 @@
       "id": "genai-assistant",
       "title": "Assistant",
       "url": "https://245265-879aquaant-stage.adobeio-static.net/index.html",
+      "passConfig": true,
       "passReferrer": true,
       "isPalette": false,
-      "environments": [ "edit" ],
+      "environments": [ "dev", "preview", "live", "prod", "edit" ],
       "includePaths": [ "/**" ]
     }
   ]
