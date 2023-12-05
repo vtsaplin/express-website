@@ -1,68 +1,13 @@
 {
-  "project": "Express",
-  "outerHost": "express-website--adobe.hlx.live",
-  "host": "www.adobe.com",
-  "byocdn": true,
-  "pushDownSelector": "#feds-header",
-  "devMode": true,
+  "project": "Franklin",
   "plugins": [
     {
-      "id": "metadata",
-      "title": "Meta Data Inspector",
-      "url": "https://main--express-website--adobe.hlx.page/tools/metadata/inspector.html",
-      "environments": [ "edit" ],
-      "excludePaths": [ "/**" ],
-      "includePaths": [ "**metadata.xlsx**" ]
-    },
-    {
-      "id": "templates",
-      "title": "Templates",
-      "url": "https://main--express-website--adobe.hlx.page/tools/templates/picker.html",
-      "environments": [ "edit" ],
-      "excludePaths": [ "/**" ],
-      "includePaths": [ "**.docx**" ]
-    },
-    {
-      "id": "experiments-local",
-      "title": "Generate Experiment (Local)",
-      "url": "http://localhost:3000",
+      "id": "generate-variations",
+      "title": "Generate Variations",
+      "url": "https://experience.adobe.com/aem/generate-variations",
       "passConfig": true,
-      "passReferrer": true,
-      "isPalette": true,
-      "paletteRect": "left: 50%; top: 50%; transform: translate(-50%, -50%); width: 900px; height: 600px; box-shadow: 0 0 30px 30px rgba(0,0,0,0.20);",
-      "environments": [ "dev", "preview", "live", "prod" ],
-      "includePaths": [ "/**" ]
-    },
-    {
-      "id": "experiments-dev",
-      "title": "Generate Experiment (Dev)",
-      "url": "https://gentle-glacier-0d85da80f-dev.eastus2.3.azurestaticapps.net",
-      "passConfig": true,
-      "passReferrer": true,
-      "isPalette": true,
-      "paletteRect": "left: 50%; top: 50%; transform: translate(-50%, -50%); width: 900px; height: 600px; box-shadow: 0 0 30px 30px rgba(0,0,0,0.20);",
-      "environments": [ "dev", "preview", "live", "prod" ],
-      "includePaths": [ "/**" ]
-    },
-    {
-      "id": "aem-chat",
-      "title": "Chat",
-      "url": "https://chat.hlx.live",
-      "passConfig": true,
-      "passReferrer": true,
-      "isPalette": true,
-      "paletteRect": "left: 20px; top: calc(150px - 20px); width: 350px; height: calc(100vh - 150px); box-shadow: 0 0 30px 30px rgba(0,0,0,0.20);",
-      "environments": [ "dev", "preview", "live", "prod", "edit" ],
-      "includePaths": [ "/**" ]
-    },
-    {
-      "id": "genai-assistant",
-      "title": "Assistant",
-      "url": "https://245265-879aquaant-stage.adobeio-static.net/index.html",
-      "passConfig": true,
-      "isPalette": false,
-      "environments": [ "dev", "preview", "live", "prod", "edit" ],
-      "includePaths": [ "/**" ]
+      "environments": ["edit"],
+      "includePaths": ["**.docx**"]
     }
   ]
 }
