@@ -1,13 +1,59 @@
 {
-  "project": "Franklin",
+  "project": "Express",
+  "outerHost": "express-website--adobe.hlx.live",
+  "host": "www.adobe.com",
+  "byocdn": true,
+  "pushDownSelector": "#feds-header",
+  "devMode": true,
   "plugins": [
     {
-      "id": "generate-variations",
-      "title": "Generate Variations",
-      "url": "https://experience.adobe.com/aem/generate-variations",
+      "id": "metadata",
+      "title": "Meta Data Inspector",
+      "url": "https://main--express-website--adobe.hlx.page/tools/metadata/inspector.html",
+      "environments": [ "edit" ],
+      "excludePaths": [ "/**" ],
+      "includePaths": [ "**metadata.xlsx**" ]
+    },
+    {
+      "id": "templates",
+      "title": "Templates",
+      "url": "https://main--express-website--adobe.hlx.page/tools/templates/picker.html",
+      "environments": [ "edit" ],
+      "excludePaths": [ "/**" ],
+      "includePaths": [ "**.docx**" ]
+    },
+    {
+      "id": "experiments-local",
+      "title": "Generate Experiment (Local)",
+      "url": "http://localhost:3000",
       "passConfig": true,
-      "environments": ["preview"],
-      "includePaths": ["**.docx**"]
+      "passReferrer": true,
+      "isPalette": true,
+      "paletteRect": "left: 50%; top: 50%; transform: translate(-50%, -50%); width: 900px; height: 600px; box-shadow: 0 0 30px 30px rgba(0,0,0,0.20);",
+      "environments": [ "dev", "preview", "live", "prod" ],
+      "includePaths": [ "/**" ]
+    },
+    {
+      "id": "experiments-dev",
+      "title": "Generate Experiment (Dev)",
+      "url": "https://gentle-glacier-0d85da80f-dev.eastus2.3.azurestaticapps.net",
+      "passConfig": true,
+      "passReferrer": true,
+      "isPalette": true,
+      "paletteRect": "left: 50%; top: 50%; transform: translate(-50%, -50%); width: 900px; height: 600px; box-shadow: 0 0 30px 30px rgba(0,0,0,0.20);",
+      "environments": [ "dev", "preview", "live", "prod" ],
+      "includePaths": [ "/**" ]
+    },
+    {
+      "id": "experiments-main",
+      "title": "Generate Experiment",
+      "url": "https://gentle-glacier-0d85da80f-main.eastus2.3.azurestaticapps.net ",
+      "passConfig": true,
+      "passReferrer": true,
+      "isPalette": true,
+      "paletteRect": "left: 50%; top: 50%; transform: translate(-50%, -50%); width: 900px; height: 600px; box-shadow: 0 0 30px 30px rgba(0,0,0,0.20);",
+      "environments": [ "dev", "preview", "live", "prod" ],
+      "includePaths": [ "/**" ]
     }
   ]
 }
